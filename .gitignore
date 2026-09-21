@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Backend runtime storage
+backend/uploads/
+backend/thumbnails/
+backend/frames/
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Database
+backend/data/
+*.db
+*.db-shm
+*.db-wal
+
+# Test/generated media
+backend/audio-test/
+backend/document-test/
+backend/video-test-frames/
+
+# Backend generated data
+backend/storage/
+backend/*.sqlite
+backend/*.sqlite3

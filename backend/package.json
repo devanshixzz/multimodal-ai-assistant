@@ -1,0 +1,32 @@
+{
+  "name": "multimodal-ai-assistant-backend",
+  "version": "1.0.0",
+  "description": "Backend for Multi-Modal AI Assistant",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@google/genai": "^2.23.0",
+    "better-sqlite3": "^13.0.3",
+    "canvas": "^3.2.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "file-type": "^22.1.1",
+    "fluent-ffmpeg": "^2.1.3",
+    "groq-sdk": "^1.6.0",
+    "multer": "^2.4.0",
+    "pdfjs-dist": "^4.8.69",
+    "sharp": "^0.35.4",
+    "uuid": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
